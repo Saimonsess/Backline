@@ -17,7 +17,7 @@ public class Registro extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Registro.this,MainActivity.class);
+                Intent intent = new Intent(Registro.this,Carga.class);
                 startActivity(intent);
             }
         });
