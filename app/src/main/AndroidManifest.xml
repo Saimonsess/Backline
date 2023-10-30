@@ -12,6 +12,17 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".mapa"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA4sYlDnAciZbn-xJxnDnVfb2OM4WezXes" />
+
+        <activity
+            android:name=".seleccion"
+            android:exported="false" />
+        <activity
             android:name=".Carga"
             android:exported="false" />
         <activity
